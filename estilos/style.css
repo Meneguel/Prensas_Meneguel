@@ -10,7 +10,7 @@ background-color: azure;
 }
 main{
 background-color: white;
-width: 1000px;
+width: 800px;
 margin: auto;
 padding: 10px;
 box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.363);
@@ -52,4 +52,13 @@ a#efeitomenu:hover {
     transition: 1s;
 }
 #Menu{
-     text-align: center}
+     text-align: center
+    }
+
+nav#back {
+    display: block;
+    text-align: left;
+    margin-top: 50px;
+    position: absolute;
+
+}
