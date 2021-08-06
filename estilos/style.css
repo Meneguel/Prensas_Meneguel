@@ -10,7 +10,8 @@ background-color: azure;
 }
 main{
 background-color: white;
-width: 800px;
+min-width: 320px;
+max-width: 800px;
 margin: auto;
 padding: 10px;
 box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.363);
@@ -32,7 +33,12 @@ img.capa {
     display: block;
     margin-left: auto;
     margin-right: auto;
-   
+}
+img.manual{
+       display: block;
+       margin: auto;
+       width: 100%;
+   }
 }
 a#efeitomenu {
     background-color: rgb(206, 202, 202);
